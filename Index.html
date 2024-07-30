@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <!-- CSS-->
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar-->
+     <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#"></a>content</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+     </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- Events -->
+     <section class="Events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Embark on an unforgettable journey to the summit of the world with Camo Trek's expert-led Everest expeditions.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Discover breathtaking landscapes and hidden treasures at your own pace with our walking tours.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+     </section>
+     <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Explore the world and discover its hidden treasures. From bustling metropolises to serene countryside, there's a world of wonder waiting to be explored. Immerse yourself in diverse cultures, savor tantalizing cuisines, and create unforgettable memories. Let curiosity be your guide as you embark on a journey of self-discovery and global exploration.</p>
+        <a href="#" class="ctn">Learn More</a>
+
+     </section>
+
+     <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Get ready to explore the world with our exciting range of upcoming tours! From the majestic mountains to pristine beaches, we offer a diverse selection of destinations to suit every traveler's taste. Immerse yourself in rich cultures, encounter breathtaking landscapes, and create unforgettable memories. Our expertly curated itineraries combine adventure, relaxation, and cultural immersion for an unparalleled travel experience.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./img/img3.png" alt="">
+                        <img src="./img/img4.png" alt="">
+                        <img src="./img/img5.png" alt="">
+                        <img src="./img/img6.png" alt="">
+            </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="footer">
+        <p>123 Avenue, Karachi, Pakistan | Phone: 0123-456-789 | Email: maryam@gmail.com</p>
+        <p>Copyright © 2024 Mary Land Adventurers</p>
+     </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
